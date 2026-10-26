@@ -9,6 +9,7 @@ int main()
 	again:
 	printf("您的电脑将在1分钟内容，输入：我是猪，取消关机\n");
 	scanf("%s",input);
+	//两个字符串比较用strcmp
 	if(strcmp(input,"我是猪") == 0)
 	{
 		system("shutdown -a");
